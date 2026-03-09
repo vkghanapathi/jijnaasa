@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git pull)",
+      "Bash(pdftoppm -v)",
+      "Bash(pdftotext \"/Users/dharmaposhanam/Documents/GitHub/Jijnaasa/data/advaita/plan1.pdf\" -)",
+      "Bash(pdftotext \"/Users/dharmaposhanam/Documents/GitHub/Jijnaasa/data/advaita/Ananda Giri Teeka.pdf\" -)",
+      "Bash(pdftotext \"/Users/dharmaposhanam/Documents/GitHub/Jijnaasa/data/advaita/Dhvantanirasa_Final.pdf\" -)",
+      "Bash(mkdir -p /tmp/pdf_pages)",
+      "Bash(/opt/homebrew/bin/pdftoppm -png -r 200 -f 1 -l 3 \"/Users/dharmaposhanam/Documents/GitHub/Jijnaasa/data/advaita/Ananda Giri Teeka.pdf\" /tmp/pdf_pages/anandagiri)",
+      "Read(//tmp/**)",
+      "Bash(/opt/homebrew/bin/pdftoppm -png -r 200 -f 1 -l 1 \"/Users/dharmaposhanam/Documents/GitHub/Jijnaasa/data/advaita/Vaiyasika_NyayaMaala.pdf\" /tmp/pdf_pages/nyayamaala)",
+      "Bash(/opt/homebrew/bin/pdftoppm -png -r 200 -f 1 -l 1 \"/Users/dharmaposhanam/Documents/GitHub/Jijnaasa/data/advaita/Vedanta Sutra Muktavali.pdf\" /tmp/pdf_pages/muktavali)"
+    ]
+  }
+}
